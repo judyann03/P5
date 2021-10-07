@@ -1,0 +1,29 @@
+<div class="alert alert-dark bg-light text-center h-500" >
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[0])">
+    {{rnd[0]}}
+    </button>
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[1])">
+    {{rnd[1]}}
+    </button>
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[2])">
+    {{rnd[2]}}
+    </button>
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[3])">
+    {{rnd[3]}}
+    </button>
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[4])">
+    {{rnd[4]}}
+    </button>
+    <button type="button" class="btn btn-default btn-circle btn-xl text-black" (click)="buttonSelect(rnd[5])">
+    {{rnd[5]}}
+    </button>
+  </div>
+  <hr>
+  <h1 class="text-center">You have selected</h1>
+  <div class="container col-md-4 offset-4">
+      <div class="card card-block" style="height: 100px">
+        <div class="card-body align-items-center d-flex justify-content-center">
+            <h1 style="font-size: 50px;">{{selected}}</h1>
+        </div>
+      </div>
+  </div>
